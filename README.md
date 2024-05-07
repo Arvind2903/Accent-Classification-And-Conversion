@@ -44,6 +44,9 @@ We experimented with various hyperparameters and applied the Hanning algorithm t
 
 We used the same model architecture as in Task 1 but replaced the 1D layers with 2D layers. MaxPooling was introduced at each layer to reduce the size of feature maps. Out-of-sample metrics showed significant improvement, with Precision: 97.68%, Recall: 98.13%, and Accuracy: 97.97%.
 
+### Models
+The models from tasks 1 and 2 can be found here: https://drive.google.com/drive/folders/1KiCExKPAuZQkq_pJk8Z4Zkp8aChIUJUG?usp=drive_link
+
 ## Accent Conversion (Task 3)
 
 ### Model Considerations
@@ -61,6 +64,9 @@ The core training ideas remained the same, with additional normalization of inpu
 ### Training and Evaluation
 
 The model showed improvement in learning, but reconstruction showed smoothening of features. We replaced the vanilla loss functions with an adversarial loss and introduced skip connections to improve model performance.
+
+### Models
+The fitted models can be found here: https://drive.google.com/drive/folders/1fw_jzfGO1EGIi5sBgzBfshq8ZEMcMWj4?usp=drive_link
 
 ## Further Improvements
 
